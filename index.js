@@ -16,7 +16,7 @@ function btnPlus2Home() {
 }
 
 function btnPlus3Home() {
-    homePoints += 3
+    homePoints += 4
     scoreBoard1.textContent = homePoints
 }
 
@@ -33,7 +33,7 @@ function btnPlus2Guest() {
 }
 
 function btnPlus3Guest() {
-    guestPoints += 3
+    guestPoints += 4
     scoreBoard2.textContent = guestPoints
 }
 
