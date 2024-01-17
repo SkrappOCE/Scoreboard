@@ -1,0 +1,38 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="boxyo">
+                <h3>HOME</h3>
+                    <div class="number-screen">
+                        <p id="score-one">0</p>
+                    </div>
+                        <div class="all-btn-1">
+                            <button onclick="btnPlus1Home()">+1</button>
+                            <button onclick="btnPlus2Home()">+2</button>
+                            <button onclick="btnPlus3Home()">+3</button>
+                        </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <div class="number-screen">
+                    <p id="score-two">0</p>
+                </div>
+                    <div class="all-btn-2">
+                        <button onclick="btnPlus1Guest()">+1</button>
+                        <button onclick="btnPlus2Guest()">+2</button>
+                        <button onclick="btnPlus3Guest()">+3</button>
+                    </div>
+                </div>
+            </div>
+        <div class="nrl-logo"><img src="NRL_logo.png" alt="image of the NRL logo"></div>
+            <div><button class="reset-btn" onclick="resetBtn()">RESET</button></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

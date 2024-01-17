@@ -1,0 +1,84 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+    margin: 50px auto;
+    background-size: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgreen;
+    border: 5px solid black;
+    color: white;
+}
+
+.container h3 {
+    margin: 70px auto 20px auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+.number-screen {
+    display: flex;
+    margin-bottom: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 90px;
+    text-align: center;
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.all-btn-1 {
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-around;
+}
+
+.all-btn-2 {
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-around;
+}
+
+button {
+    font-family: "Orbitron", sans-serif;
+    margin-bottom: 70px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: none;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;       
+}
+
+img {
+    display: flex;
+    position: relative;
+    bottom: 270px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reset-btn {
+    display: flex;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bolder;
+    position: relative;
+    bottom: 247px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 2px solid black;
+}
